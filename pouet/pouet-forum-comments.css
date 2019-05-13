@@ -1,0 +1,83 @@
+/*
+
+pouet-forum-comments.css
+
+Created by @gsuberland. Code released under MIT License.
+
+https://github.com/gsuberland/user-css/pouet/
+
+*/
+
+#pouetbox_bbsview,
+#pouetbox_prodcomments .comment {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    min-width: 800px;
+}
+
+#pouetbox_bbsview div:nth-child(2n+4),
+#pouetbox_prodcomments .comment div:nth-child(odd) {
+    /* comment element */
+    width: 89.5%;
+    box-sizing: border-box;
+    border-bottom: 1px solid darkgrey;
+}
+
+#pouetbox_bbsview div:nth-child(2n+5),
+#pouetbox_prodcomments .comment div:nth-child(even) {
+    /* name element */
+    width: 10%;
+    clear: none;
+    display: inline-block;
+    box-sizing: border-box;
+    border-bottom: 1px solid darkgrey;
+}
+
+#pouetbox_prodcomments .comment div:nth-child(odd) {
+    width: 84.5%;
+}
+
+#pouetbox_prodcomments .comment div:nth-child(even) {
+    width: 15%;
+}
+
+#pouetbox_bbsview div:last-child {
+    width: 100%;
+    display: block;
+    margin: auto;
+    height: auto;
+}
+
+#pouetbox_bbsview h2:first-child {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#pouetbox_bbsview .threadcategory {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#pouetbox_bbsview .blank {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#pouetbox_bbsview .navbar {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#prodpagecontainer {
+    max-width: 80% !important;
+}
+
+#prodpagecontainer > div {
+    max-width: none;
+}

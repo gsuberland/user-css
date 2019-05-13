@@ -1,0 +1,123 @@
+/*
+
+pouet-synthwave.css
+
+Created by @gsuberland. Code released under MIT License.
+
+https://github.com/gsuberland/user-css/pouet/
+
+*/
+
+body,
+html {
+    height: auto !important;
+}
+
+body {
+    background-color: transparent !important;
+    background-image: linear-gradient(#fc28a8, #03edf9) !important;
+    background-size: auto 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a {
+    color: #fdfdfd;
+    text-shadow: 0 0 2px #001716, 0 0 3px #03edf975, 0 0 5px #03edf975, 0 0 8px #03edf975;
+}
+
+.boxlist > :nth-child(2n+1),
+.boxtable tr:nth-child(2n+1) td,
+#partytable tr:nth-child(2n+1) td,
+td.r1 {
+    background-color: transparent !important;
+    background-image: linear-gradient(#2a2139 75%, #34294f) !important;
+}
+
+.boxlist > :nth-child(2n),
+.boxtable tr:nth-child(2n) td,
+#partytable tr:nth-child(2n) td,
+.content.r2,
+td.r2 {
+    background-color: transparent !important;
+    background-image: linear-gradient(#34294f, 75%, #2a2139) !important;
+}
+
+#topbar {
+    background-color: #34294f !important;
+}
+
+#topbar ul li a {
+    color: #fff !important;
+}
+
+#topbar ul li a:first-letter {
+    color: #03edf9 !important;
+}
+
+.pouettbl h2,
+h3,
+h2 a,
+h3 a,
+#prodheader th {
+    background-color: #03edf9 !important;
+    color: #2a2139 !important;
+    text-shadow: none !important;
+}
+
+#prodheader th a {
+    color: #fdfdfd;
+    text-shadow: 0 0 2px #001716, 0 0 3px #03edf975, 0 0 5px #03edf975, 0 0 8px #03edf975;
+}
+
+.pouettbl div,
+#pouetbox_prodmain > tbody > tr > td {
+    background-color: transparent !important;
+    background-image: linear-gradient(#2a2139 75%, #34294f) !important;
+    color: #fdfdfd;
+    text-shadow: 0 0 2px #001716, 0 0 3px #03edf975, 0 0 5px #03edf975, 0 0 8px #03edf975;
+}
+
+#pouetbox_prodmain > tbody > tr > td td {
+    background-color: transparent !important;
+}
+
+.pouettbl .foot {
+    background-color: black !important;
+    background-image: linear-gradient(#260b50 75%, #34294f) !important;
+    color: #fdfdfd;
+    text-shadow: 0 0 2px #001716, 0 0 3px #03edf975, 0 0 5px #03edf975, 0 0 8px #03edf975;
+}
+
+.pouettbl div a,
+#pouetbox_prodmain a {
+    color: #f92aad;
+    text-shadow: 0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3;
+}
+
+.pouettbl div blockquote {
+    background-image: linear-gradient(#2a2139 75%, #34294f) !important;
+    border: 1px solid #fc28a8;
+}
+
+.navbar select {
+    border: 1px solid #fc28a8;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 3px 5px 3px 5px;
+    background-color: #fff951;
+}
+
+.navbar {
+    border-bottom: 2px solid #fff;
+}
+
+#logo p {
+    color: white;
+}
+
+footer {
+    color: black;
+}
